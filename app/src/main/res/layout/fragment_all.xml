@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".ui.all.AllFragment">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_pokemon_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
 </LinearLayout>
