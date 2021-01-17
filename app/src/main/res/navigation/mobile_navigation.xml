@@ -11,4 +11,10 @@
         android:label="@string/menu_all"
         tools:layout="@layout/fragment_all" />
 
+    <fragment
+        android:id="@+id/nav_create"
+        android:name="com.putnet.retro.ui.create.CreateFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create" />
+
 </navigation>
